@@ -28,5 +28,3 @@ def permutate(N,lst):
         solution += list(np.zeros(sol[-1],dtype=int))
         solutions.append(solution)
     return solutions
-sols = permutate(6,[2,2])
-print(sols)
